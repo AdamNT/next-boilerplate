@@ -1,0 +1,7 @@
+{
+  "h1": "Prosty przykład",
+  "change-locale": "Zmień język",
+  "to-about-page": "Do strony o nas",
+  "error-with-status": "Na serwerze wystąpił błąd {{statusCode}}",
+  "error-without-status": "Wystąpił błąd na serwerze"
+}

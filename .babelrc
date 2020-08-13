@@ -1,0 +1,33 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./"
+        ],
+        "alias": {
+          "@actions": "./src/redux/actions",
+          "@actionTypes": "./src/redux/actionTypes",
+          "@components": "./src/components",
+          "@pages": "./pages",
+          "@reducers": "./src/redux/reducers",
+          "@redux": "./src/redux",
+          "@root": "./",
+          "@static": "./public/static",
+          "@themes": "./src/themes",
+          "@utils": "./src/utils"
+        }
+      }
+    ],
+    [
+      "styled-components",
+      {
+        "ssr": true
+      }
+    ]
+  ]
+}
