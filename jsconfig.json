@@ -1,0 +1,63 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@actions": [
+        "src/redux/actions"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@components": [
+        "src/components"
+      ],
+      "@actionTypes/*": [
+        "src/redux/actionTypes/*"
+      ],
+      "@actionTypes": [
+        "src/redux/actionTypes"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@reducers": [
+        "src/redux/reducers"
+      ],
+      "@reducers/*": [
+        "src/redux/reducers/*"
+      ],
+      "@redux": [
+        "src/redux"
+      ],
+      "@redux/*": [
+        "src/redux/*"
+      ],
+      "@root/*": [
+        "root/*"
+      ],
+      "@utils": [
+        "src/utils"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@static/*": [
+        "public/static/*"
+      ],
+      "@themes/*": [
+        "src/themes/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".next",
+    "next.config.js",
+    ".babelrc"
+  ],
+  "include": [
+    "**/*.js",
+    "**/*.jsx"
+  ]
+}
